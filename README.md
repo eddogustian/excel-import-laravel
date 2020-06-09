@@ -8,7 +8,7 @@
 </p>
 
 ## Cara menjalankan :
-1. Clone Repository <a href="https://github.com/eddogustian/excel-import-laravel/"> alt="excel-import-laravel">excel-import-laravel</a> 
+1. Clone Repository <a href="https://github.com/eddogustian/excel-import-laravel/">excel-import-laravel</a> 
 2. jalankan composer install/update
 3. php artisan migrate {untuk generate tabel-tabel)
 4. settngs .env 
