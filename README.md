@@ -8,10 +8,10 @@
 </p>
 
 ## Cara menjalankan :
-1. Clone Repository <a href="https://github.com/eddogustian/excel-import-laravel/">excel-import-laravel</a> 
-2. jalankan composer install/update
-3. php artisan migrate {untuk generate tabel-tabel)
-4. settngs .env 
+1. Clone Repository <a href="https://github.com/eddogustian/excel-import-laravel/">excel-import-laravel</a> {git clone repo} 
+2. masuk ke directory excel-import-laravel dan jalankan composer install/update
+3. jika sudah sudah selesai download vendornya, lalu php artisan migrate {untuk generate tabel-tabel}
+4. settngs .env
 5. jangan lupa untuk mengubah file .env, perhatian bagian DATABASE ganti menjadi:
     QUEUE_CONNECTION=database
 6. menjalankan command php artisan queue:work
