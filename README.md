@@ -14,7 +14,8 @@
 4. settngs .env
 5. jangan lupa untuk mengubah file .env, perhatian bagian DATABASE ganti menjadi:
     QUEUE_CONNECTION=database
-6. menjalankan command php artisan queue:work
+6. untuk menjalankan app tuliskan di command line php artisan serve 
+7. lalu menjalankan command php artisan queue:work {untuk mengeksekusi job yang telah dibuat} atau bisa menggunakan supervisor agar fungsi queue:work berjalan secara otomatis.
 
 ## License
 
